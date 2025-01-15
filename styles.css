@@ -1,0 +1,130 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #B3B3B3; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #1DB954; 
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1DB954; 
+    padding: 10px 20px;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease;
+    
+}
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.add-button {
+    align-self: center;
+}
+
+a:hover {
+    background-color: #1ED760; 
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #181818; 
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #1DB954; 
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #282828; 
+}
+
+form {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #181818; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #B3B3B3; 
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #282828; 
+    color: #B3B3B3; 
+}
+
+input[type="submit"] {
+    background-color: #1DB954; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1ED760; 
+}
+
+input[type="button"] {
+    background-color: #dc3545; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 90%; 
+    }
+
+    form {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
